@@ -51,25 +51,7 @@ PortalListItemView.args = {
             name: 'English',
             articles_count: 123,
             categories_count: 42,
-          },
-          {
-            code: 'fr-FR',
-            name: 'Français',
-            articles_count: 23,
-            categories_count: 11,
-          },
-          {
-            code: 'de-DE',
-            name: 'Deutsch',
-            articles_count: 32,
-            categories_count: 12,
-          },
-          {
-            code: 'es-ES',
-            name: 'Español',
-            articles_count: 12,
-            categories_count: 4,
-          },
+          }
         ],
       },
       locales: [
@@ -78,25 +60,7 @@ PortalListItemView.args = {
           name: 'English',
           articles_count: 123,
           categories_count: 42,
-        },
-        {
-          code: 'fr-FR',
-          name: 'Français',
-          articles_count: 23,
-          categories_count: 11,
-        },
-        {
-          code: 'de-DE',
-          name: 'Deutsch',
-          articles_count: 32,
-          categories_count: 12,
-        },
-        {
-          code: 'es-ES',
-          name: 'Español',
-          articles_count: 12,
-          categories_count: 4,
-        },
+        }
       ],
     },
     {
@@ -117,13 +81,7 @@ PortalListItemView.args = {
             code: 'en-EN',
             articles_count: 12,
             categories_count: 66,
-          },
-          {
-            name: 'Mandarin',
-            code: 'ch-CH',
-            articles_count: 6,
-            categories_count: 23,
-          },
+          }
         ],
       },
       locales: [
@@ -132,13 +90,7 @@ PortalListItemView.args = {
           code: 'en-EN',
           articles_count: 12,
           categories_count: 66,
-        },
-        {
-          name: 'Mandarin',
-          code: 'ch-CH',
-          articles_count: 6,
-          categories_count: 23,
-        },
+        }
       ],
     },
   ],

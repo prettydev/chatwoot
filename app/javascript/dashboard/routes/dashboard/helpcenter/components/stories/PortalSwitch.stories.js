@@ -33,26 +33,6 @@ Primary.args = {
         code: 'en',
         articles_count: 12,
       },
-      {
-        name: 'Español',
-        code: 'es',
-        articles_count: 42,
-      },
-      {
-        name: 'French',
-        code: 'fr',
-        articles_count: 29,
-      },
-      {
-        name: 'Italian',
-        code: 'it',
-        articles_count: 4,
-      },
-      {
-        name: 'German',
-        code: 'de',
-        articles_count: 66,
-      },
     ],
   },
 };

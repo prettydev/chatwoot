@@ -42,26 +42,6 @@ Primary.args = {
             name: 'English',
             articles_count: 123,
           },
-          {
-            code: 'fr',
-            name: 'Français',
-            articles_count: 123,
-          },
-          {
-            code: 'de',
-            name: 'Deutsch',
-            articles_count: 32,
-          },
-          {
-            code: 'es',
-            name: 'Español',
-            articles_count: 12,
-          },
-          {
-            code: 'it',
-            name: 'Italiano',
-            articles_count: 8,
-          },
         ],
       },
       locales: [
@@ -69,27 +49,7 @@ Primary.args = {
           name: 'English',
           code: 'en',
           articles_count: 12,
-        },
-        {
-          name: 'Español',
-          code: 'es',
-          articles_count: 42,
-        },
-        {
-          name: 'French',
-          code: 'fr',
-          articles_count: 29,
-        },
-        {
-          name: 'Italian',
-          code: 'it',
-          articles_count: 4,
-        },
-        {
-          name: 'German',
-          code: 'de',
-          articles_count: 66,
-        },
+        }
       ],
     },
     {
@@ -109,27 +69,7 @@ Primary.args = {
             code: 'en',
             name: 'English',
             articles_count: 123,
-          },
-          {
-            code: 'fr',
-            name: 'Français',
-            articles_count: 123,
-          },
-          {
-            code: 'de',
-            name: 'Deutsch',
-            articles_count: 32,
-          },
-          {
-            code: 'es',
-            name: 'Español',
-            articles_count: 12,
-          },
-          {
-            code: 'it',
-            name: 'Italiano',
-            articles_count: 8,
-          },
+          }
         ],
       },
       locales: [
@@ -137,16 +77,6 @@ Primary.args = {
           name: 'English',
           code: 'en',
           articles_count: 12,
-        },
-        {
-          name: 'Japanese',
-          code: 'jp',
-          articles_count: 4,
-        },
-        {
-          name: 'Mandarin',
-          code: 'CH',
-          articles_count: 6,
         },
       ],
     },
