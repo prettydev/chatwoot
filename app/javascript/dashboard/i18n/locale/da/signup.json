@@ -1,0 +1,41 @@
+{
+  "REGISTER": {
+    "TRY_WOOT": "Registrer en konto",
+    "TITLE": "Registrer",
+    "TESTIMONIAL_HEADER": "All it takes is one step to move forward",
+    "TESTIMONIAL_CONTENT": "You're one step away from engaging your customers, retaining them and finding new ones.",
+    "TERMS_ACCEPT": "Ved at tilmelde dig, accepterer du vores <a href=\"https://www.chatwoot.com/terms\">T & C</a> og <a href=\"https://www.chatwoot.com/privacy-policy\">Privatlivspolitik</a>",
+    "COMPANY_NAME": {
+      "LABEL": "Company name",
+      "PLACEHOLDER": "Enter your company name. eg: Wayne Enterprises",
+      "ERROR": "Company name is too short"
+    },
+    "FULL_NAME": {
+      "LABEL": "Fulde navn",
+      "PLACEHOLDER": "Indtast dit fulde navn. fx: Bruce Wayne",
+      "ERROR": "Fulde navn er for kort"
+    },
+    "EMAIL": {
+      "LABEL": "Arbejde e-mail",
+      "PLACEHOLDER": "Indtast din arbejdsmailadresse fx: bruce@wayne.enterprises",
+      "ERROR": "Please enter a valid work email address"
+    },
+    "PASSWORD": {
+      "LABEL": "Adgangskode",
+      "PLACEHOLDER": "Adgangskode",
+      "ERROR": "Adgangskoden er for kort",
+      "IS_INVALID_PASSWORD": "Adgangskoden skal indeholde mindst 1 stort bogstav, 1 lille bogstav, 1 nummer og 1 specialtegn"
+    },
+    "CONFIRM_PASSWORD": {
+      "LABEL": "Bekræft Adgangskode",
+      "PLACEHOLDER": "Bekræft Adgangskode",
+      "ERROR": "Adgangskode stemmer ikke overens"
+    },
+    "API": {
+      "SUCCESS_MESSAGE": "Registrering Succesfuld",
+      "ERROR_MESSAGE": "Kunne ikke oprette forbindelse til Woot Server, Prøv igen senere"
+    },
+    "SUBMIT": "Send",
+    "HAVE_AN_ACCOUNT": "Har du allerede en konto?"
+  }
+}
