@@ -1,20 +1,5 @@
 <template>
-  <div
-    v-if="!conversationSize && isFetchingList"
-    class="flex flex-1 items-center h-full bg-black-25 justify-center"
-  >
-    <spinner size="" />
-  </div>
-  <div
-    v-else
-    class="flex flex-col justify-end h-full"
-    :class="{
-      'is-mobile': isMobile,
-      'is-widget-right': isRightAligned,
-      'is-bubble-hidden': hideMessageBubble,
-      'is-flat-design': isWidgetStyleFlat,
-    }"
-  >
+  <div class="p-12">
     <router-view />
   </div>
 </template>
@@ -27,7 +12,6 @@ import configMixin from './mixins/configMixin';
 import availabilityMixin from 'widget/mixins/availability';
 import { getLocale } from './helpers/urlParamsHelper';
 import { isEmptyObject } from 'widget/helpers/utils';
-import Spinner from 'shared/components/Spinner.vue';
 import routerMixin from './mixins/routerMixin';
 import {
   getExtraSpaceToScroll,
@@ -43,9 +27,6 @@ import { SDK_SET_BUBBLE_VISIBILITY } from '../shared/constants/sharedFrameEvents
 
 export default {
   name: 'App',
-  components: {
-    Spinner,
-  },
   mixins: [availabilityMixin, configMixin, routerMixin],
   data() {
     return {
@@ -312,3 +293,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+</style>

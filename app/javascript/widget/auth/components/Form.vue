@@ -1,6 +1,6 @@
 <template>
-  <form @submit.prevent="submit">
-    <div class="input-wrap">
+  <form class="flex flex-col gap-8" @submit.prevent="submit">
+    <div class="flex flex-col gap-4">
       <auth-input
         v-model="credentials.fullName"
         :class="{ error: $v.credentials.fullName.$error }"
@@ -195,24 +195,3 @@ export default {
   },
 };
 </script>
-<style scoped lang="scss">
-.h-captcha--box {
-  margin-bottom: var(--space-small);
-
-  .captcha-error {
-    color: var(--r-400);
-    font-size: var(--font-size-small);
-  }
-
-  &::v-deep .error {
-    iframe {
-      border: 1px solid var(--r-500);
-      border-radius: var(--border-radius-normal);
-    }
-  }
-}
-
-.accept--terms {
-  margin: var(--space-normal) 0 var(--space-smaller) 0;
-}
-</style>

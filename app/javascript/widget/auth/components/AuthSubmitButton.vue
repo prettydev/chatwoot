@@ -39,17 +39,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.submit--button {
-  align-items: center;
-  display: flex;
-  margin: 0 0 var(--space-normal) 0;
-
-  &::v-deep .button__content {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-}
-</style>

@@ -1,21 +1,18 @@
 <template>
-  <div class="medium-12 column login">
-    <div class="text-center medium-12 login__hero align-self-top">
+  <div class="flex flex-col gap-12">
+    <div>
       <img
         :src="globalConfig.logo"
         :alt="globalConfig.installationName"
-        class="hero__logo"
       />
-      <h2 class="hero__title">
-        {{
-          useInstallationName($t('LOGIN.TITLE'), globalConfig.installationName)
-        }}
+      <h2 class="text-2xl">
+        {{ $t('LOGIN.TITLE') }}
       </h2>
     </div>
-    <div class="row align-center">
-      <div v-if="!email" class="small-12 medium-4 column">
-        <form class="login-box column align-self-top" @submit.prevent="login()">
-          <div class="column log-in-form">
+    <div>
+      <div v-if="!email" class="w-full flex flex-col gap-12">
+        <form @submit.prevent="login()">
+          <div class="flex flex-col gap-4">
             <label :class="{ error: $v.credentials.email.$error }">
               {{ $t('LOGIN.EMAIL.LABEL') }}
               <input
@@ -44,11 +41,11 @@
               "
               :button-text="$t('LOGIN.SUBMIT')"
               :loading="loginApi.showLoading"
-              button-class="large expanded"
+              button-class=""
             />
           </div>
         </form>
-        <div class="column text-center sigin__footer">
+        <div class="underline">
           <router-link to="/register">
             {{ $t('LOGIN.CREATE_NEW_ACCOUNT') }}
           </router-link>

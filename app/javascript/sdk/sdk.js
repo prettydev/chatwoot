@@ -10,9 +10,10 @@ export const SDK_CSS = `
   will-change: transform, opacity;
   transform: translateY(0);
   overflow: hidden !important;
-  position: fixed !important;
   transition: opacity 0.2s linear, transform 0.25s linear;
   z-index: 2147483000 !important;
+  width: 60% !important;
+  margin: auto;
 }
 
 .woot-widget-holder.woot-widget-holder--flat {
@@ -142,15 +143,6 @@ export const SDK_CSS = `
   fill: var(--s-700);
 }
 
-@media only screen and (min-width: 667px) {
-  .woot-widget-holder.woot-elements--left {
-    left: 20px;
- }
-  .woot-widget-holder.woot-elements--right {
-    right: 20px;
- }
-}
-
 .woot--close:hover {
   opacity: 1;
 }
@@ -189,54 +181,6 @@ export const SDK_CSS = `
 
 .woot-widget--without-bubble {
   bottom: 20px !important;
-}
-
-@media only screen and (max-width: 667px) {
-  .woot-widget-holder {
-    height: 100%;
-    right: 0;
-    top: 0;
-    width: 100%;
- }
-
- .woot-widget-holder iframe {
-    min-height: 100% !important;
-  }
-
-
- .woot-widget-holder.has-unread-view {
-    height: auto;
-    right: 0;
-    width: auto;
-    bottom: 0;
-    top: auto;
-    max-height: 100vh;
-    padding: 0 8px;
-  }
-
-  .woot-widget-holder.has-unread-view iframe {
-    min-height: unset !important;
-  }
-
- .woot-widget-holder.has-unread-view.woot-elements--left {
-    left: 0;
-  }
-
-  .woot-widget-bubble.woot--close {
-    bottom: 60px;
-    opacity: 0;
-    visibility: hidden !important;
-    z-index: -1 !important;
-  }
-}
-
-@media only screen and (min-width: 667px) {
-  .woot-widget-holder {
-    border-radius: 16px;
-    bottom: 104px;
-    height: 90%;
-    width: 50% !important;
- }
 }
 
 .woot-hidden {

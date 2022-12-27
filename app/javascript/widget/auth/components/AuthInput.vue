@@ -1,12 +1,11 @@
 <template>
-  <label class="auth-input--wrap">
+  <label>
     <div class="label-wrap">
       <fluent-icon v-if="iconName" :icon="iconName" size="16" />
       <span v-if="label">{{ label }}</span>
     </div>
-    <div class="input--wrap">
+    <div class="flex flex-col">
       <input
-        class="auth-input"
         :value="value"
         :type="type"
         :placeholder="placeholder"
@@ -14,8 +13,8 @@
         @input="onChange"
         @blur="onBlur"
       />
-      <p v-if="helpText" class="help-text" />
-      <span v-if="error" class="message">
+      <p v-if="helpText" />
+      <span v-if="error">
         {{ error }}
       </span>
     </div>
@@ -68,26 +67,3 @@ export default {
   },
 };
 </script>
-<style lang="scss" scoped>
-.auth-input--wrap {
-  .label-wrap {
-    display: flex;
-    align-items: center;
-    color: var(--s-900);
-    margin-bottom: var(--space-smaller);
-
-    span {
-      margin-left: var(--space-smaller);
-      font-size: var(--font-size-small);
-    }
-  }
-
-  .auth-input {
-    font-size: var(--font-size-small) !important;
-    height: 4rem !important;
-    padding: var(--space-small) !important;
-    width: 100% !important;
-    background: var(--s-50) !important;
-  }
-}
-</style>
