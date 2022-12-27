@@ -4,7 +4,7 @@
     :class="$dm('bg-slate-50', 'dark:bg-slate-800')"
     @keydown.esc="closeWindow"
   >
-    <div
+    <!-- <div
       class="header-wrap"
       :class="{
         expanded: !isHeaderCollapsed,
@@ -34,8 +34,8 @@
           :available-agents="availableAgents"
         />
       </transition>
-    </div>
-    <banner />
+    </div> -->
+    <!-- <banner /> -->
     <transition
       enter-active-class="transition-all delay-300 duration-300 ease-in"
       leave-active-class="transition-all duration-200 ease-out"
@@ -46,7 +46,7 @@
     >
       <router-view />
     </transition>
-    <branding :disable-branding="disableBranding" />
+    <!-- <branding :disable-branding="disableBranding" /> -->
   </div>
 </template>
 <script>

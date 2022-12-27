@@ -88,6 +88,7 @@ export const onBubbleClick = (props = {}) => {
 
 export const onClickChatBubble = () => {
   bubbleHolder.addEventListener('click', onBubbleClick);
+  bubbleHolder.click();
 };
 
 export const addUnreadClass = () => {
