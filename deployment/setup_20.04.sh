@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Description: Install and manage a Chatwoot installation.
+# Description: Install and manage a installation.
 # OS: Ubuntu 20.04 LTS
 # Script Version: 2.2.0
 # Run this script as root

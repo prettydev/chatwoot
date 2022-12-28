@@ -34,7 +34,7 @@
   "BUBBLE": {
     "LABEL": "Chat with us"
   },
-  "POWERED_BY": "Powered by Chatwoot",
+  "POWERED_BY": "Powered by GenomicExpression",
   "EMAIL_PLACEHOLDER": "Please enter your email",
   "CHAT_PLACEHOLDER": "Type your message",
   "TODAY": "Today",
@@ -88,7 +88,7 @@
     "SEND_EMAIL_ERROR": "There was an error, please try again"
   },
   "LOGIN": {
-    "TITLE": "Login to Chatwoot",
+    "TITLE": "Login",
     "EMAIL": {
       "LABEL": "Email",
       "PLACEHOLDER": "Email eg: someone@example.com"
@@ -111,7 +111,7 @@
     "TITLE": "Register",
     "TESTIMONIAL_HEADER": "All it takes is one step to move forward",
     "TESTIMONIAL_CONTENT": "You're one step away from engaging your customers, retaining them and finding new ones.",
-    "TERMS_ACCEPT": "By signing up, you agree to our <a href=\"https://www.chatwoot.com/terms\">T & C</a> and <a href=\"https://www.chatwoot.com/privacy-policy\">Privacy policy</a>",
+    "TERMS_ACCEPT": "By signing up, you agree to our <a href=\"https://www.genomicexpression.com/terms\">T & C</a> and <a href=\"https://www.genomicexpression.com/privacy-policy\">Privacy policy</a>",
     "COMPANY_NAME": {
       "LABEL": "Company name",
       "PLACEHOLDER": "Enter your company name. eg: Wayne Enterprises",
