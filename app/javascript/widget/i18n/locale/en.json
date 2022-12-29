@@ -99,7 +99,7 @@
     },
     "API": {
       "SUCCESS_MESSAGE": "Login Successful",
-      "ERROR_MESSAGE": "Could not connect to Woot Server, Please try again later",
+      "ERROR_MESSAGE": "Could not connect to Server, Please try again later",
       "UNAUTH": "Username / Password Incorrect. Please try again"
     },
     "FORGOT_PASSWORD": "Forgot your password?",
@@ -140,7 +140,7 @@
     },
     "API": {
       "SUCCESS_MESSAGE": "Registration Successfull",
-      "ERROR_MESSAGE": "Could not connect to Woot Server, Please try again later"
+      "ERROR_MESSAGE": "Could not connect to Server, Please try again later"
     },
     "SUBMIT": "Submit",
     "HAVE_AN_ACCOUNT": "Already have an account?"

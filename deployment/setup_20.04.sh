@@ -438,7 +438,7 @@ function ssl_success_message() {
     cat << EOF
 
 ***************************************************************************
-Woot! Woot!! Chatwoot server installation is complete.
+Server installation is complete.
 The server will be accessible at https://$domain_name
 
 Join the community at https://chatwoot.com/community?utm_source=cwctl
@@ -547,7 +547,7 @@ EOF
 ➥ 9/9 Skipping SSL/TLS setup.
 
 ***************************************************************************
-Woot! Woot!! Chatwoot server installation is complete.
+Server installation is complete.
 The server will be accessible at http://$public_ip:3000
 
 To configure a domain and SSL certificate, follow the guide at
@@ -629,7 +629,7 @@ Installation/Upgrade:
 Management:
   -c, --console             Open ruby console
   -l, --logs                View logs from Chatwoot. Supported values include web/worker.
-  -r, --restart             Restart Chatwoot server
+  -r, --restart             Restart server
   
 Miscellaneous:
   -d, --debug               Show debug messages
@@ -758,13 +758,13 @@ EOF
 
   systemctl daemon-reload
 
-  # Restart the chatwoot server
+  # Restart the server
   systemctl restart chatwoot.target
 
 }
 
 ##############################################################################
-# Restart Chatwoot server (-r/--restart)
+# Restart server (-r/--restart)
 # Globals:
 #   None
 # Arguments:
